@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstWpfApp", "MyFirstWpfApp\MyFirstWpfApp.csproj", "{19AAA709-716B-4BFD-A785-E25A61CF93E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyFirstWpfApp", "MyFirstWpfApp\MyFirstWpfApp.csproj", "{19AAA709-716B-4BFD-A785-E25A61CF93E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunction", "AzureFunction\AzureFunction.csproj", "{0FBEDB24-4B59-4C29-BB3F-2978E8730379}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Device.ConsoleApp", "Device.ConsoleApp\Device.ConsoleApp.csproj", "{DA6B649D-C936-483F-B74B-8E7FF3EDF66F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{19AAA709-716B-4BFD-A785-E25A61CF93E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19AAA709-716B-4BFD-A785-E25A61CF93E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19AAA709-716B-4BFD-A785-E25A61CF93E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FBEDB24-4B59-4C29-BB3F-2978E8730379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FBEDB24-4B59-4C29-BB3F-2978E8730379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FBEDB24-4B59-4C29-BB3F-2978E8730379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FBEDB24-4B59-4C29-BB3F-2978E8730379}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA6B649D-C936-483F-B74B-8E7FF3EDF66F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA6B649D-C936-483F-B74B-8E7FF3EDF66F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA6B649D-C936-483F-B74B-8E7FF3EDF66F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA6B649D-C936-483F-B74B-8E7FF3EDF66F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

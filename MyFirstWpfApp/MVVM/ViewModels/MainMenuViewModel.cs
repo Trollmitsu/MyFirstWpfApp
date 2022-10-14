@@ -19,7 +19,6 @@ namespace MyFirstWpfApp.MVVM.ViewModels
             LivingRoomViewCommand = new RelayCommand(x => { CurrentView = LivingRoomViewModel; });
 
             CurrentView = KitchenViewModel;
-
         }
 
         private object _currentView;

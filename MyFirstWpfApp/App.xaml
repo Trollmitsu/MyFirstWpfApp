@@ -3,16 +3,22 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:MyFirstWpfApp"
              xmlns:viewModels="clr-namespace:MyFirstWpfApp.MVVM.ViewModels"
-             StartupUri="MainWindow.xaml">
+             xmlns:views="clr-namespace:MyFirstWpfApp.MVVM.Views">
     <Application.Resources>
          <ResourceDictionary>
              <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="Resources/Buttons.xaml"/>
-                <ResourceDictionary Source="Resources/Fonts.xaml"/>
+                 <ResourceDictionary Source="Resources/Fonts.xaml"/>
+                 <ResourceDictionary Source="Resources/Buttons.xaml"/>
                 <ResourceDictionary Source="Resources/Menu.xaml"/>
+                 <ResourceDictionary Source="Resources/Borders.xaml"/>
             </ResourceDictionary.MergedDictionaries>
+             <DataTemplate DataType="{x:Type viewModels:KitchenViewModel}">
+                 <views:KitchenView/>
+             </DataTemplate>
+             <DataTemplate DataType="{x:Type viewModels:BedRoomViewModel}">
+                 <views:BedRoomView/>
+             </DataTemplate>
 
-             
-         </ResourceDictionary>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
